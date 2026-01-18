@@ -57,7 +57,7 @@ button:hover{
 
 /* Hero section styling starts */
 #hero-container{
-    background: url(../assets/hero-bg.png);
+    background: url(assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
