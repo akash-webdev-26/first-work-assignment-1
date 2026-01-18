@@ -1,0 +1,310 @@
+/* Shared or Universal styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    color: #001931;
+}
+
+/* Navber section style */
+.Top-Nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 16px 0;
+    background: #fff;
+}
+.site-logo:hover{
+    cursor: pointer;
+}
+.menu-links{
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    gap: 32px;
+    text-decoration: none;
+}
+.menu-links a{
+    text-decoration: none;
+    color: gray;
+
+}
+button:hover{
+    cursor: pointer;
+}
+.menu-links a:hover {
+    color:rgb(8, 1, 1);
+}
+.GET-btn button{
+    width: 164px;
+    padding: 12px 16px 12px 12px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    background: #469165;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+.GET-btn button:hover{
+    cursor: pointer;
+    color: #000;
+}
+
+/* Hero section styling starts */
+#hero-container{
+    background: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 116px;
+    padding-bottom: 179px;
+}
+#hero-container .hero-banner{
+    display: flex;
+    gap: 6px;
+    background: #ffff;
+    width: 229px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    margin-bottom: 16px;
+}
+#hero-container .banner-text{
+    color: #30B868;
+    font-size: 16px;
+}
+
+.hero-tittle{
+    color: #fff;
+    font-size: 42px;
+    text-align: center;
+}
+
+.highlight{
+    color: #06e362;
+}
+.hero-text{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.hero-text p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300;
+}
+.hero-btn{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.hero-btn .primary-btn{
+    background: #469165;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 16.5px;
+    border-radius: 5px;
+}
+.hero-btn .primary-btn:hover{
+    color: #000;
+}
+.hero-btn .secondary-btn{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    padding: 16.5px;
+    border-radius: 5px;
+}
+.hero-btn .secondary-btn:hover{
+    color:black;
+}
+
+
+#notes-section{
+    background: #fbfbfb;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+.notes-header{
+    text-align: center;
+    margin-bottom: 44px;
+}
+#notes-section .notes-header-p h1{
+    font-size: 52px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#notes-section .notes-header-p p{
+    font-size: 16px;
+    color: #627382;
+}
+
+.notesCards{
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.notesCards .cards{
+    background: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 69.5px 24px;
+}
+
+.notesCards .cards h3{
+    font-size: 24px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+
+}
+.cards .imageBg{
+    width: 60px;
+    height: 60px;
+    background: #F95555;
+    border-radius: 50%;
+    padding: 14px;
+    margin-bottom: 16px;
+}
+
+#second-brain-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 100px 270px;
+    
+}
+#second-brain-section .brain-info{
+    width: 530px;
+}
+.brain-info h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.brain-info h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+    width: 1000px;
+}
+.brain-info p{
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.brain-info .features-list .feature-item{
+    display: flex;
+    align-items:flex-start;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+#early-access-section {
+    max-width: 1340px;
+    background: #737272;
+    margin: 0 auto;
+    text-align: center;
+    padding: 90px 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+    background-color: #b7b5b5;
+}
+
+#early-access-section h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+#early-access-section p {
+    font-size: 16px;
+    color: #627382;
+    line-break: 24px;
+}
+
+#early-access-section button {
+     color: #fff;
+     background: #469165;
+     font-size: 16px;
+     font-weight: 500;
+     border: none;
+     border-radius: 5px;
+     padding: 16px;
+     margin: 24px 0 16px;
+}
+.earlyAccInfos{
+    width: 640px;
+}
+#early-access-section button:hover{
+    color: #000;
+}
+
+footer{
+    background: #001931;
+    padding: 120px 120px 30px;
+}
+.footers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-link{
+    color: #fff;
+}
+.social-link p{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.social-icons{
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+.CopyRights{
+    margin-top: 80px;
+    color: #fff;
+    text-align: center;
+}
+
+.CopyRights hr{
+    margin-bottom: 30px;
+    opacity: 20%;
+}
+.CopyRights p{
+    font-size: 16px;
+    color: #fafafa;
+    line-height: 24px;
+    font-weight: 300;
+}
+.ft-logo :hover{
+    cursor: pointer;
+}
+.icons:hover{
+    cursor: pointer;
+}
